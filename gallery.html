@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gallery - Saudi Sites</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Logo" class="logo">
+      <h1>Saudi Sites Gallery</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+        <li><a href="dashboard.php" class="nav-link">Dashboard</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Click on an image to see information</h2>
+    <div class="gallery-container">
+
+      
+      <div class="gallery-item" onClick="showInfo('haram_madani')">
+        <img src="images/haram_madani.jpg" alt="Al-Masjid an-Nabawi" />
+        <p>Al-Masjid an-Nabawi</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('alula')">
+        <img src="images/alula.jpg" alt="AlUla" />
+        <p>AlUla</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('king_fahad_bridge')">
+        <img src="images/king_fahad_bridge.jpg" alt="King Fahd Causeway" />
+        <p>King Fahd Causeway</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('jeddah_balad')">
+        <img src="images/jeddah_balad.png" alt="Historic Jeddah (Al-Balad)" />
+        <p>Historic Jeddah (Al-Balad)</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('haram_makki')">
+        <img src="images/haram_makki.webp" alt="Masjid al-Haram" />
+        <p>Masjid al-Haram</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('aldereyah')">
+        <img src="images/aldereyah.jpg" alt="Diriyah" />
+        <p>Diriyah</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('edge_of_world')">
+        <img src="images/edge_of_world.jpg" alt="Edge of the World" />
+        <p>Edge of the World</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('ummluj_beach')">
+        <img src="images/ummluj_beach.png" alt="Umluj Beach" />
+        <p>Umluj Beach</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('jabal_souda')">
+        <img src="images/jabal_souda.jpg" alt="Jabal Sawda" />
+        <p>Jabal Sawda</p>
+      </div>
+
+      <div class="gallery-item" onClick="showInfo('farasan_island')">
+        <img src="images/farasan_island.jpg" alt="Farasan Island" />
+        <p>Farasan Island</p>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Saudi Sites. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

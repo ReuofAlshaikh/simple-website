@@ -1,0 +1,103 @@
+/* style.css */
+
+/* -- Basic resets -- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -- Contextual selector example: style all anchor tags inside nav -- */
+header nav a {
+  text-decoration: none;
+  color: #fff;  /* one color */
+}
+
+/* -- Navigation bar styling -- */
+header {
+  background-color: #007b5e;  /* second color */
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  margin-right: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-link {
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+}
+
+/* Pseudo selector example: a:hover */
+.nav-link:hover {
+  background-color: #006648;  /* third color */
+  color: #fff;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333; /* fourth color */
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+}
+
+/* Main headings */
+h1, h2, h3 {
+  margin-bottom: 10px;
+}
+
+/* Gallery container */
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.gallery-item {
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f9f9f9;
+}
+
+.gallery-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Contact form section */
+.form-section {
+  width: 60%;
+  margin: 20px auto;
+}
+
+.form-section form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Example ID selector usage */
+#special-info {
+  font-style: italic;
+  color: #555;
+}
